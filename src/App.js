@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Compras from './components/Compras'
+import Tareas from './components/Tareas'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       </header>
       
  <Compras />
+ <Tareas />
     </div>
     
   );
