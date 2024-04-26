@@ -1,7 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Compras from './components/Compras'
-import Tareas from './components/Tareas'
+//import Compras from './components/Compras'
+//import Tareas from './components/Tareas'
+import SectionOne from './pages/SectionOne'
+
+import SectionDos from './pages/SectionDos'
+import SectionThree  from './pages/SectionThree'
+import SectionFour from './pages/SectionFour'
+import SectionFive from './pages/SectionFive'
 
 function App() {
 
@@ -9,26 +15,15 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Hecho por {name}</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
       </header>
-      
- <Compras />
- <Tareas />
+     
+      <SectionOne />
+      <SectionDos title={'My latest work'} />
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
     </div>
-    
   );
 }
 
