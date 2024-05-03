@@ -19,7 +19,7 @@ function App() {
       </header>
       <Browser/>
       <SectionOne />
-      <SectionDos title={'My latest work'} />
+      <SectionDos  />
       <SectionThree />
       <SectionFour />
       <SectionFive />
