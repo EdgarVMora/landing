@@ -146,6 +146,8 @@ text-decoration: none;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
   color: #ed64b1;
 }
 
