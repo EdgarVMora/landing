@@ -12,6 +12,17 @@ function latestWork(props) {
             para comer un taco de sal y ponerle 
             tantita salsa.
            </p>
+           <div className="covers">
+                <div className="cover">
+                    <p>Portada 1</p>
+                </div>
+                <div className="cover">
+                <p>Portada 2</p>
+                </div>
+                <div className="cover">
+                <p>Portada 3</p>
+                </div >
+            </div>
         </div>
     )
 }
