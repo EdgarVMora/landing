@@ -17,7 +17,7 @@ function Testimonials(){
                 </div>
                 <div className="client">
                     <h4>Client 3</h4>
-                    <p>Nidie me dijo lo que era trabajar
+                    <p>Nadie me dijo lo que era trabajar
                         con el, vaya sorpresa. 10/10
                     </p>
                 </div>

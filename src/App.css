@@ -208,5 +208,45 @@ text-decoration: none;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   color: #ed64b1;
+  padding-top: 4em;
+ 
+}
+
+.button_contact{
+  background-color: #ed64b1;
+  color: white;
+  height: 2em;
+  width: 9em;
+  border: 0px;
+  
+}
+
+.work_togheter > h3{
+  color: slategray;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.contact_box{
+  background-color: #ed64b1;
+  color: white;
+  width: 25em;
+  height: 30em;
+  line-height: 4;
+}
+
+.contact_box > p{
+  padding-left: 1em;
+}
+
+.button_send{
+  background-color: white;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 5em;
+  margin-left: 1em;
+  display: flex;
 }
