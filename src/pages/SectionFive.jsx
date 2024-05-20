@@ -7,7 +7,10 @@ function WorkTogheter(){
             </div>
             <h3>Ask me a question!</h3>
             <div className="contact_box">
-                <p>name</p>
+                <div className="field">
+                <label>name</label>
+                <input />
+                </div>
                 <p>last name</p>
                 <p>subjects</p>
                 <p>your message</p>

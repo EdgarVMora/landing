@@ -1,3 +1,5 @@
+import Barra from "../components/barra"
+
 function Skills() {
     return (
 
@@ -12,9 +14,15 @@ function Skills() {
 
             <div className="master">
 
-                <h4>Medicina</h4>
+                <div>
+                    <Barra porcentaje={100} />
+                    <h4>Medicina</h4>
+                </div>
+                <Barra porcentaje={100} />
                 <h4>Comercio</h4>
+                <Barra porcentaje={100} />
                 <h4>Programcion</h4>
+                <Barra porcentaje={100} />
                 <h4>Edicion</h4>
 
             </div>

@@ -7,6 +7,7 @@ const Browser = () => {
       <a href="/#">Home</a>
       <a href="/#">Projects</a>
       <a href="/#">About Me</a>
+      <a href="/#testimonials">Testimonials</a>
     </nav>
    ) 
 }
