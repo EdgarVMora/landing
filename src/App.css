@@ -1,3 +1,4 @@
+/*Se aborda la seccion Nav.jsx */
 nav {
   display: flex;
   justify-content: space-between;
@@ -21,8 +22,9 @@ nav * {
 
 /* > Indica que se van a aplicar estilos a los hijos directos */
 nav>a {
-  flex: 15;
+  flex: 6 1;
   text-decoration: none;
+  text-align: center;
 }
 
 .headline {
@@ -78,6 +80,8 @@ nav>a {
 
 }
 
+/*Se aborda la seccion Lastest_Work.jsx */
+
 .last_work {
   background-color: rgb(255, 255, 255);
   min-height: 50vh;
@@ -127,9 +131,11 @@ nav>a {
   height: 13em;
 }
 
+/*Se aborda la seccion Skills.jsx */
+
 .my_skills {
-  background-color: rgb(218, 207, 207);
-  min-height: 40vh;
+  background-color: rgb(228, 228, 228);
+  min-height: 45vh;
   display: flex;
   flex-direction: column;
   color: #ed64b1;
@@ -137,9 +143,7 @@ nav>a {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2em;
   padding-top: 2em;
-  padding-bottom: 3em;
 }
 
 
@@ -147,26 +151,44 @@ nav>a {
   width: 50%;
   color: darkgray;
   text-align: center;
-  gap: 3em;
+  margin-bottom: 6em;
 }
 
 .master {
-  background-color: rgb(218, 207, 207);
+  background-color: rgb(228, 228, 228);
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   align-content: center;
   justify-items: end;
-  gap: 3em;
+  gap: 4em;
 }
 
 .master * h4 {
   align-self: center;
+  text-transform: uppercase;
+  font-size: 0.7em;
   width: 15em;
   color: black;
   margin: 0;
   text-align: start;
 }
+
+/*Se colocan las barras para medir el nivel de habilidad */
+.skill-bar {
+  height: 12px;
+  width: 10em;
+  background-color: rgb(197, 197, 197);
+  border-radius: 10em;
+}
+
+.skill-bar>div {
+  height: inherit;
+  border-radius: inherit;
+  background-color: red;
+}
+
+/*Se aborda la seccion Testimonials.jsx */
 
 .anonymous_testimony {
   background-color: rgb(255, 255, 255);
@@ -196,17 +218,20 @@ nav>a {
   border-radius: 10px;
 }
 
+/* Se posiciona una sobre otra las cajas de clientes */
 .client:first-child {
+  top: 2.8em;
   right: 45%
 }
 
 .client:nth-child(2){
-  top:3em;
+  top:6em;
   right: 25%;
   z-index:2;
 }
 
 .client:last-child{
+  top: 3.5em;
   left: 45%;
 }
 
@@ -220,6 +245,8 @@ nav>a {
   text-align: center;
 }
 
+/*Se aborda la seccion Contact.jsx */
+
 .work_togheter {
   background-color: rgb(254, 254, 254);
   min-height: 70vh;
@@ -232,13 +259,15 @@ nav>a {
 
 }
 
+/* Se edita el boton de contacto */
 .button_contact {
   background-color: #ed64b1;
   color: white;
-  height: 2em;
-  width: 9em;
+  height: 2.5em;
+  width: 12em;
   border: 0px;
-
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .work_togheter>h3 {
@@ -247,6 +276,7 @@ nav>a {
   padding-bottom: 1em;
 }
 
+/* Se da estilo a la caja de preguntas */
 .contact_box {
   background-color: #ed64b1;
   color: white;
@@ -255,35 +285,8 @@ nav>a {
   line-height: 4;
 }
 
-.contact_box>p {
-  padding-left: 1em;
-}
-
-.button_send {
-  background-color: white;
-  border-radius: 10px;
-  border: 0px;
-  width: 5em;
-  height: 1.5em;
-  margin-top: 5em;
-  margin-left: 1em;
-  display: flex;
-}
-
-.skill-bar {
-  height: 12px;
-  width: 10em;
-  background-color: grey;
-  border-radius: 10em;
-}
-
-.skill-bar>div {
-  height: inherit;
-  border-radius: inherit;
-  background-color: red;
-}
-
 .field {
+  font-size: 0.7em;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -293,6 +296,7 @@ nav>a {
   text-transform: uppercase;
 }
 
+/* Se hace una linea para poder escribir */
 .field>input {
   background-color: transparent;
   border: none;
@@ -301,7 +305,22 @@ nav>a {
   padding: 0.5em;
 }
 
+/* Se quita el margen de la caja de texto */
 .field>input:focus-visible {
-
   outline: none;
 }
+
+/*Se edita el boton de enviar */
+.button_send {
+  background-color: white;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: 1em;
+  margin-top: 3em;
+  width: 8em;
+  height: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+

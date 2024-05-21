@@ -2,12 +2,12 @@
 import './App.css';
 //import Compras from './components/Compras'
 //import Tareas from './components/Tareas'
-import Browser from './pages/Browser'
+import Browser from './pages/Nav'
 import Hero from './pages/Hero'
-import SectionDos from './pages/SectionDos'
-import SectionThree  from './pages/SectionThree'
-import SectionFour from './pages/SectionFour'
-import SectionFive from './pages/SectionFive'
+import LastestWork from './pages/Lastest_Work'
+import Skills  from './pages/Skills'
+import Testimonials from './pages/Testimonials'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -19,10 +19,10 @@ function App() {
       </header>
       <Browser/>
       <Hero />
-      <SectionDos  />
-      <SectionThree />
-      <SectionFour />
-      <SectionFive />
+      <LastestWork  />
+      <Skills />
+      <Testimonials />
+      <Contact />
     </div>
   );
 }

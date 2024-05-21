@@ -4,10 +4,10 @@ const Browser = () => {
       <div className="logo">
         <h1>Edgar Mora</h1>
       </div>
-      <a href="/#">Home</a>
-      <a href="/#">Projects</a>
-      <a href="/#">About Me</a>
+      <a href="/#lastest_work">My Lastest Work</a>
+      <a href="/#skills">Skills</a>
       <a href="/#testimonials">Testimonials</a>
+      <a href="/#contact">Contact</a>
     </nav>
    ) 
 }

@@ -1,6 +1,6 @@
 function WorkTogheter(){
     return (
-        <div className="work_togheter">
+        <section id="contact" className="work_togheter">
             <h2>Let's work togheter!</h2>
             <div>
                 <button className="button_contact">Contact me</button>
@@ -8,15 +8,21 @@ function WorkTogheter(){
             <h3>Ask me a question!</h3>
             <div className="contact_box">
                 <div className="field">
-                <label>name</label>
+                <label>first name</label>
                 <input />
                 </div>
-                <p>last name</p>
-                <p>subjects</p>
+                <div className="field">
+                    <label>last name</label>
+                    <input />
+                </div>
+                <div className="field">
+                    <label>subjects</label>
+                    <input />
+                </div>
                 <p>your message</p>
                 <button className="button_send">send</button>
             </div>
-         </div>
+         </section>
      
     )
 }

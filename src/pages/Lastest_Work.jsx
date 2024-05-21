@@ -2,7 +2,7 @@ function latestWork(props) {
     const {title} = props
     return(
         
-        <div className="last_work">
+        <section id="lastest_work" className="last_work">
            <h2> My lastest Work</h2> 
            <p>
             A la corta edad de 3 añitos, solia ser 
@@ -23,7 +23,7 @@ function latestWork(props) {
                 <p>Portada 3</p>
                 </div >
             </div>
-        </div>
+        </section>
     )
 }
 
